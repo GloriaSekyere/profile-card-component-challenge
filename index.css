@@ -1,0 +1,14 @@
+:root {
+    --dc: hsl(185, 75%, 39%);
+    --vddb: hsl(229, 23%, 23%);
+    --dgb: hsl(227, 10%, 46%);
+    --dg: hsl(0, 0%, 59%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  
+}
