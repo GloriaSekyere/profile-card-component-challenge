@@ -17,8 +17,8 @@ body {
   background-repeat: no-repeat;
 }
 main {
-  width:25rem;
-  height: 25rem;
+  width:20rem;
+  height: 23rem;
   background-color: #FFF;
 }
 #card-bg {
@@ -41,4 +41,42 @@ main {
     width: 100%;
     height: auto;
     border-radius: 50%;
+}
+#content{
+    width: 80%;
+    margin: auto;
+}
+#profile-info {
+    margin-top: 4rem;
+    text-align: center;
+}
+#profile-info h1 {
+    font-size: 1.15rem;
+}
+#profile-info h1 span {
+    color: var(--dg);
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 0.3rem;
+}
+#profile-info p {
+    color: var(--dg);
+    font-size: 1rem;
+    margin-top: 0.3rem; 
+}
+#stats-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 2rem;
+}
+.stats {
+    text-align: center;
+}
+.stats p:first-child {
+    font-weight: 700;
+}
+.stats p:last-child {
+    color: var(--dg);
+    font-size: 0.8rem;
 }
