@@ -13,18 +13,25 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 18px;
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-color: var(--dc);
   background-position: left top, right bottom;
   background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main {
   width:20rem;
-  height: 23rem;
+  height: 24rem;
   background-color: #FFF;
+  border-radius: 1rem;
 }
 #card-bg {
     background-image: url(images/bg-pattern-card.svg);
     height: 9rem;
     position: relative;
+    border-radius: 1rem 1rem 0 0;
 }
 #img-div {
     width: 7rem;
@@ -33,7 +40,7 @@ main {
     border-radius: 50%;
     position: absolute;
     background-color: #FFF;
-    top: 50%;
+    top: 5.5rem;
     left: 50%;
     transform: translate(-50%)
 }
@@ -44,10 +51,10 @@ main {
 }
 #content{
     width: 80%;
-    margin: auto;
+    margin: 5rem auto 0; 
 }
 #profile-info {
-    margin-top: 4rem;
+    
     text-align: center;
 }
 #profile-info h1 {
@@ -68,7 +75,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 .stats {
     text-align: center;
