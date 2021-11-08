@@ -15,6 +15,7 @@ body {
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
   background-color: var(--dc);
   background-position: left top, right bottom;
+  background-size: 20rem, 20rem;
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
