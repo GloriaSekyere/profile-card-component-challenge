@@ -115,18 +115,12 @@ main {
 
 @media only screen and (min-width: 1440px) {
 #bg-top {
-    position: absolute;
-    top:0;
-    left: 0;
+    width: 60rem;
     transform: translate(-10%, -50%);
-    z-index: -1;
 }
 #bg-bottom {
-    position: absolute;
-    right:0;
-    bottom: 0;
+    width: 60rem;
     transform: translate(10%, 50%);
-    z-index: -1;
   }  
 
 }
