@@ -102,7 +102,7 @@ main {
 
 @media only screen and (min-width: 1440px) {
   body {
-    background-position: -170% 170%, 170% -120%;
+    background-position: -170% 170%, 170% -150%;
     background-size: 85rem, 85rem;
   }  
 }
