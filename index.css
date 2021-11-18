@@ -12,11 +12,7 @@
 body {
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 18px;
-  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
   background-color: var(--dc);
-  background-position: -800% -31%, 800% 110%;
-  background-size: 30rem, 30rem;
-  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -99,10 +95,38 @@ main {
     color: var(--dg);
     font-size: 0.8rem;
 }
+    
+#bg-top {
+    width: 30rem;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translate(-50%, -20%);
+    z-index: -1;
+}
+#bg-bottom {
+    width: 30rem;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    transform: translate(50%, 20%);
+    z-index: -1;
+  } 
 
 @media only screen and (min-width: 1440px) {
-  body {
-    background-position: -170% 170%, 170% -150%;
-    background-size: 85rem, 85rem;
+#bg-top {
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translate(-10%, -50%);
+    z-index: -1;
+}
+#bg-bottom {
+    position: absolute;
+    right:0;
+    bottom: 0;
+    transform: translate(10%, 50%);
+    z-index: -1;
   }  
+
 }
